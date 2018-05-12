@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bande-son de la nature</title>
+	<meta name="description" content="Bande-son de la Nature" />
+	<meta name="keywords" content="bande-son relaxing mp3 sons nature musique forêt arbres sons pluie vent mer relax détente"
+	/>
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+
+	<div id="harmonie">
+		<header>
+			<p class="c">
+				<a id="trigger-overlay" target="_blank">Crédits</a>
+			</p>
+			<div id="mute">
+				<a class="icon"></a>
+			</div>
+			<a href="#" id="logo" title="bande-son de la nature" onclick="location.reload()">Bande-son de la nature</a>
+		</header>
+
+		<section id="intro">
+			<h1>
+				<span class="bold">Détendez-vous</span> aux
+				<span class="bold">sons</span> de la
+				<span class="bold">nature</span>
+			</h1>
+		</section>
+		<!-- fin intro -->
+
+		<section id="nature">
+
+			<div class="sound active" id="1">
+				<audio loop="true" preload="auto" id="foret">
+					<source src="audio/sounds/foret.ogg" type="audio/ogg">
+					<source src="audio/sounds/foret.mp3" type="audio/mpeg">
+					<source src="audio/sounds/foret.mp3" type="audio/wav">
+				</audio>
+
+				<a class="center">
+					<img class="icon" src="images/sounds/foret.svg" title="foret" />
+					<h4>forêt</h4>
+				</a>
+			</div>
+
+			<div class="sound" id="2">
+				<audio loop="true" preload="auto" id="pluie">
+					<source src="audio/sounds/pluie.ogg" type="audio/ogg">
+					<source src="audio/sounds/pluie.mp3" type="audio/mpeg">
+					<source src="audio/sounds/pluie.mp3" type="audio/wav">
+				</audio>
+
+				<a class="center">
+					<img class="icon" src="images/sounds/pluie.svg" title="pluie" />
+					<h4>pluie</h4>
+				</a>
+			</div>
+
+			<div class="sound" id="3">
+				<audio loop="true" preload="auto" id="crepuscule">
+					<source src="audio/sounds/crepuscule.ogg" type="audio/ogg">
+					<source src="audio/sounds/crepuscule.mp3" type="audio/mpeg">
+					<source src="audio/sounds/crepuscule.mp3" type="audio/wav">
+				</audio>
+
+				<a class="center">
+					<img class="icon" src="images/sounds/crepuscule.svg" title="crepuscule" />
+					<h4>crépuscule</h4>
+				</a>
+			</div>
+
+			<div class="sound" id="4">
+				<audio loop="true" preload="auto" id="mer">
+					<source src="audio/sounds/mer.ogg" type="audio/ogg">
+					<source src="audio/sounds/mer.mp3" type="audio/mpeg">
+					<source src="audio/sounds/mer.mp3" type="audio/wav">
+				</audio>
+
+				<a class="center">
+					<img class="icon" src="images/sounds/mer.svg" title="mer" />
+					<h4>mer</h4>
+				</a>
+			</div>
+
+		</section>
+		<!-- fin nature -->
+
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Fermer</button>
+
+			<div class="center">
+				<div class="abt">
+					<h1>Projet « bande-son de la nature »</h1>
+					<p> J'ai toujours aimé écouter les sons de la nature pour me détendre. Cela m'aide à bien travailler et me met dans une
+						ambiance apaisante.</p>
+					<p> En connaissant plusieurs personnes semblables à moi, j'ai decidé de créer un endroit simple, mais esthétiquement agréable
+						où les autres pourraient simplement choisir des beaux sons naturels pour se détendre aussi. </p>
+					<p> Asseyez-vous et détendez-vous, en prenant quelques minutes de votre travail pour profiter des sons de la nature.
+					</p>
+				</div>
+				<div class="crdt">
+					<h1>Crédits</h1>
+					<p>Tous les sons &amp; les images sont publiés sous
+						<a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Creative Commons License</a>
+					</p>
+					<p>Sons de la nature par Grant,
+						<a href="http://naturesounds.co.nz/" target="_blank">"Sounds of New Zealand"</a>.</p>
+
+					<p>Images par
+						<a href="http://unsplash.com" target="_blank">Unsplash</a> &amp;
+						<a href="https://unsplash.com/@whale" target="_blank">Matthew Smith</a>
+					</p>
+					<p>Website développé par
+						<a href="http://alfa-front.com" title="Alexis Farias portfolio" target="_blank">Alexis Farias</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<a href="http://alfa-front.com" class="alfafront" target="_blank"></a>
+		</footer>
+
+		<div class="preload">
+			<img src="images/foret.jpg" alt="">
+
+			<img src="images/pluie.jpg" alt="">
+
+			<img src="images/crepuscule.jpg" alt="">
+
+			<img src="images/mer.jpg" alt="">
+		</div>
+		<!-- /.preload -->
+	</div>
+	<!-- fin #harmonie -->
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+	</script>
+	<script src="js/jquery.queryloader2.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/overlay.js"></script>
+</body>
+
+</html>
